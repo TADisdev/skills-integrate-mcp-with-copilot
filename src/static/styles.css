@@ -16,6 +16,7 @@ body {
 }
 
 header {
+  position: relative;
   text-align: center;
   padding: 20px 0;
   margin-bottom: 30px;
@@ -26,6 +27,53 @@ header {
 
 header h1 {
   margin-bottom: 10px;
+}
+
+#auth-controls {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+#user-menu-button {
+  background-color: #ffffff;
+  color: #1a237e;
+  border: 1px solid #c5cae9;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1;
+}
+
+#auth-panel {
+  position: absolute;
+  top: 46px;
+  right: 0;
+  width: 260px;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  color: #333;
+  text-align: left;
+  z-index: 10;
+}
+
+#auth-panel p {
+  margin-bottom: 10px;
+}
+
+#auth-panel button {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+#auth-panel .form-group input {
+  padding: 8px;
+  font-size: 14px;
 }
 
 main {
